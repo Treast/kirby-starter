@@ -49,3 +49,7 @@ Icon
 
 /site/config/.license
 kirby/
+site/plugins/
+
+node_modules/
+vendor/

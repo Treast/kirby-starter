@@ -56,3 +56,5 @@ vendor/
 
 .env
 .dev
+
+public/dist/

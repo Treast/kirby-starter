@@ -4,9 +4,12 @@
 
 body,
 html {
-  height: 100%;
+    width: 100px;
+    display: block;
+        height: 100%;
 }
 
 h1 {
   @apply underline underline-offset-4;
 }
+

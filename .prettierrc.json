@@ -1,0 +1,15 @@
+{
+  "plugins": ["@shufo/prettier-plugin-blade", "prettier-plugin-tailwindcss"],
+  "htmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": ["*.blade.php"],
+      "options": {
+        "parser": "blade",
+        "tabWidth": 2,
+        "sortTailwindcssClasses": true,
+        "wrapAttributes": "auto"
+      }
+    }
+  ]
+}

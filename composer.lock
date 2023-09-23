@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0eecdc35b944e64db7cb4f8b6a2ec23c",
+    "content-hash": "ca87c7c1ae96cb6c64ac5208639d30a0",
     "packages": [
         {
             "name": "arnoson/kirby-vite",
@@ -39,6 +39,51 @@
                 "source": "https://github.com/arnoson/kirby-vite/tree/v4.0.6"
             },
             "time": "2023-08-21T14:03:32+00:00"
+        },
+        {
+            "name": "belugadigital/kirby-navigation",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisbeluga/kirby-navigation.git",
+                "reference": "5bdb46a7834e24c4792e4cf71e4ac2beeba4a754"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisbeluga/kirby-navigation/zipball/5bdb46a7834e24c4792e4cf71e4ac2beeba4a754",
+                "reference": "5bdb46a7834e24c4792e4cf71e4ac2beeba4a754",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "kirby-navigation"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Martin",
+                    "email": "chris@builtbybeluga.com",
+                    "homepage": "https://builtbybeluga.com/"
+                },
+                {
+                    "name": "Ahmet Bora",
+                    "email": "ahmet@getkirby.com",
+                    "homepage": "https://owebstudio.com/"
+                }
+            ],
+            "description": "Kirby 3 field for hierarchical menus with drag & drop level indentation.",
+            "homepage": "https://github.com/chrisbeluga/kirby-navigation",
+            "support": {
+                "issues": "https://github.com/chrisbeluga/kirby-navigation/issues",
+                "source": "https://github.com/chrisbeluga/kirby-navigation/tree/3.0.1"
+            },
+            "time": "2022-09-29T13:28:58+00:00"
         },
         {
             "name": "claviska/simpleimage",
@@ -264,6 +309,68 @@
                 }
             ],
             "time": "2023-06-16T13:40:37+00:00"
+        },
+        {
+            "name": "fabianmichael/kirby-meta",
+            "version": "0.4.2-beta",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fabianmichael/kirby-meta.git",
+                "reference": "0a9422f708bbec364cc56dc81d84deb7fc30ae44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fabianmichael/kirby-meta/zipball/0a9422f708bbec364cc56dc81d84deb7fc30ae44",
+                "reference": "0a9422f708bbec364cc56dc81d84deb7fc30ae44",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.2",
+                "php": ">=8.0.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.8"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "meta"
+            },
+            "autoload": {
+                "psr-4": {
+                    "FabianMichael\\Meta\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabian Michael",
+                    "email": "hallo@fabianmichael.de"
+                }
+            ],
+            "description": "Your all-in-one powerhouse for any SEO and metadata needs imaginable.",
+            "keywords": [
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "meta",
+                "metadata",
+                "panel",
+                "seo"
+            ],
+            "support": {
+                "issues": "https://github.com/fabianmichael/kirby-meta/issues",
+                "source": "https://github.com/fabianmichael/kirby-meta/tree/0.4.2-beta"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabianmichael",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-07-25T07:30:57+00:00"
         },
         {
             "name": "filp/whoops",
@@ -2636,7 +2743,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "fabianmichael/kirby-meta": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -1,5 +1,25 @@
 title: Site
 
-sections:
-  pages:
-    type: pages
+tabs:
+  structure:
+    label: Structure
+    columns:
+      pages:
+        sections:
+          pages:
+            type: pages
+
+  navigation:
+    icon: bars
+    label: Navigation
+    sections:
+      menus:
+        type: fields
+        fields:
+          primaryMenu:
+            label: Primary Menu
+            type: navigation
+            levels: 3
+            help: Menu displayed on top of each page
+            width: 1/2
+  meta: tabs/meta/site

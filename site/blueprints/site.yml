@@ -22,4 +22,5 @@ tabs:
             levels: 3
             help: Menu displayed on top of each page
             width: 1/2
+
   meta: tabs/meta/site

@@ -1,1 +1,76 @@
 Title: Site Title
+
+----
+
+Primarymenu:
+
+- 
+  children: [ ]
+  text: Home
+  url: '#'
+  popup: false
+  uuid: rtlerkx91nl
+- 
+  children: [ ]
+  text: Blog
+  url: '#'
+  popup: false
+  uuid: i7wpd7pnrhm
+- 
+  children: [ ]
+  text: Contact
+  url: '#'
+  popup: false
+  uuid: yxrnp8oyxli
+
+----
+
+Meta-description: KirbyStarter
+
+----
+
+Meta-title-separator: 
+
+----
+
+Meta-website-owner: person
+
+----
+
+Meta-org-name: 
+
+----
+
+Meta-org-logo: 
+
+----
+
+Meta-person: - user://OeCYIaW1
+
+----
+
+Og-site-name: KirbyCMS Starter
+
+----
+
+Og-image: - file://PZuJasgbRoDnSXCF
+
+----
+
+Robots-index: 
+
+----
+
+Robots-follow: 
+
+----
+
+Robots-archive: 
+
+----
+
+Robots-imageindex: 
+
+----
+
+Robots-snippet: 

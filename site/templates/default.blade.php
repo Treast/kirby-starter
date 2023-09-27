@@ -1,6 +1,6 @@
 @snippet('layouts/header')
 
-<div class="container mx-auto">
+<div class="container">
   Hello World !!
   {{ $page->title() }}
 </div>

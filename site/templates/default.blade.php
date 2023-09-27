@@ -1,8 +1,8 @@
 @snippet('layouts/header')
 
-Hello World !!
-{{ $page->title() }}
-<span class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">Test</span>
-<span class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">Test</span>
+<div class="container mx-auto">
+  Hello World !!
+  {{ $page->title() }}
+</div>
 
 @snippet('layouts/footer')

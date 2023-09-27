@@ -1,4 +1,4 @@
-Title: Site Title
+Title: KirbyStarter
 
 ----
 
@@ -11,7 +11,19 @@ Primarymenu:
   popup: false
   uuid: rtlerkx91nl
 - 
-  children: [ ]
+  children:
+    - 
+      children: [ ]
+      text: Article 1
+      url: '#'
+      popup: false
+      uuid: lkzag6ds7ql
+    - 
+      children: [ ]
+      text: Article 2
+      url: '#'
+      popup: false
+      uuid: uk53akqxsl
   text: Blog
   url: '#'
   popup: false

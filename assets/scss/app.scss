@@ -4,12 +4,32 @@
 
 body,
 html {
-  display: block;
-
-  height: 100%;
-  width: 100px;
 }
 
-h1 {
-  @apply underline underline-offset-4;
+header nav .has-children {
+  .sub-menu {
+    @apply pointer-events-none top-2 -z-10 block opacity-0 transition-all;
+  }
+
+  button svg {
+    @apply transition-transform;
+  }
+
+  .sub-menu--mobile {
+    @apply block max-h-0 overflow-hidden transition-all duration-500;
+  }
+
+  &.nav--opened {
+    .sub-menu {
+      @apply pointer-events-auto top-full z-0 block opacity-100;
+    }
+
+    button svg {
+      @apply rotate-180;
+    }
+
+    .sub-menu--mobile {
+      @apply max-h-56;
+    }
+  }
 }

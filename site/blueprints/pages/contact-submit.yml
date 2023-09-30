@@ -1,0 +1,50 @@
+title: Contact Submit
+
+options:
+  preview: false
+  changeSlug: false
+  changeStatus: false
+  changeTemplate: false
+  changeTitle: false
+  duplicate: false
+  update: false
+
+status:
+  draft: Reçu
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        fields:
+          firstname:
+            type: text
+            label: Prénom
+            disabled: true
+            width: 1/2
+          lastname:
+            type: text
+            label: Nom
+            disabled: true
+            width: 1/2
+          email:
+            type: text
+            label: Email
+            disabled: true
+          message:
+            type: textarea
+            label: Message
+            disabled: true
+
+  infos:
+    width: 1/3
+    sections:
+      fieldsInfo:
+        type: fields
+        fields:
+          created:
+            type: date
+            label: Date d'envoi
+            time: true
+            disabled: true

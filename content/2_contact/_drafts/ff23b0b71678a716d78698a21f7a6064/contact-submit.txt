@@ -1,0 +1,25 @@
+Firstname: Vincent
+
+----
+
+Lastname: Riva
+
+----
+
+Email: vincent.riva@outlook.fr
+
+----
+
+Message: Ceci est un test
+
+----
+
+Terms: on
+
+----
+
+Created: 2023-09-30 14:10:00
+
+----
+
+Uuid: 9g07A3T5t6Zq4iMG

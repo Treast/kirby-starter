@@ -1,0 +1,18 @@
+title: Contact
+
+columns:
+  main:
+    width: 3/3
+    sections:
+      fields:
+        fields:
+          info:
+            type: info
+            label: Info
+            text: No configuration needed
+      children:
+        type: pages
+        label: Réponses
+        text: "{{ page.firstname }} {{ page.lastname }}"
+        info: "{{ page.created.toDate('d/m/Y H:i:s') }}"
+        create: false

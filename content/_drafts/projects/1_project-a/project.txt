@@ -1,0 +1,25 @@
+Title: Project A
+
+----
+
+Headline: Project A
+
+----
+
+Year: 2023
+
+----
+
+Tags: 
+
+----
+
+Intro: 
+
+----
+
+Text: 
+
+----
+
+Uuid: yb595dTiTdmmSAuM

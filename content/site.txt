@@ -30,10 +30,10 @@ Primarymenu:
   uuid: i7wpd7pnrhm
 - 
   children: [ ]
+  id: contact
   text: Contact
-  url: '#'
-  popup: false
-  uuid: yxrnp8oyxli
+  url: http://localhost:4000/contact
+  uuid: reh5cz74bys
 
 ----
 
@@ -65,7 +65,7 @@ Og-site-name: KirbyCMS Starter
 
 ----
 
-Og-image: - file://PZuJasgbRoDnSXCF
+Og-image: 
 
 ----
 
